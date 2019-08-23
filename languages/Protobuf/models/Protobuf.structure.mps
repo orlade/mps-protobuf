@@ -70,6 +70,11 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="7sVQ032MwG5" resolve="Enum" />
     </node>
+    <node concept="1TJgyi" id="7sVQ032MUe8" role="1TKVEl">
+      <property role="IQ2nx" value="8591698211919078280" />
+      <property role="TrG5h" value="packageName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7sVQ032LRdT">
     <property role="EcuMT" value="8591698211918803833" />

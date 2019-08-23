@@ -13,6 +13,7 @@
         <property id="8591698211918809436" name="index" index="2PZ55s" />
       </concept>
       <concept id="8591698211918788480" name="Protobuf.structure.Message" flags="ng" index="2PZeY0">
+        <property id="8591698211919078280" name="packageName" index="2PW7I8" />
         <child id="8591698211918973684" name="messages" index="2PWtbO" />
         <child id="8591698211918803838" name="fields" index="2PZaHY" />
       </concept>
@@ -25,6 +26,7 @@
   </registry>
   <node concept="2PZeY0" id="7sVQ032LOxh">
     <property role="TrG5h" value="Foo" />
+    <property role="2PW7I8" value="foo" />
     <node concept="2PZeY0" id="7sVQ032Mysz" role="2PWtbO">
       <property role="TrG5h" value="Baz" />
       <node concept="2PZaHT" id="7sVQ032MysB" role="2PZaHY">
