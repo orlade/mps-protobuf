@@ -4,6 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/Protobuf/Protobuf.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/Protobuf/sandbox/Protobuf.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/mps-protobuf.build/mps-protobuf.build.msd" folder="" />
     </projectModules>
   </component>
 </project>
