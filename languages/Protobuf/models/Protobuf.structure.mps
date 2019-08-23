@@ -49,13 +49,6 @@
     <node concept="PrWs8" id="7sVQ032LP3f" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="1TJgyj" id="7sVQ032LRdY" role="1TKVEi">
-      <property role="IQ2ns" value="8591698211918803838" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="fields" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="7sVQ032LRdT" resolve="Field" />
-    </node>
     <node concept="1TJgyj" id="7sVQ032MwFO" role="1TKVEi">
       <property role="IQ2ns" value="8591698211918973684" />
       <property role="20lmBu" value="aggregation" />
@@ -69,6 +62,13 @@
       <property role="20kJfa" value="enums" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="7sVQ032MwG5" resolve="Enum" />
+    </node>
+    <node concept="1TJgyj" id="7sVQ032LRdY" role="1TKVEi">
+      <property role="IQ2ns" value="8591698211918803838" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="fields" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="7sVQ032LRdT" resolve="Field" />
     </node>
     <node concept="1TJgyi" id="7sVQ032MUe8" role="1TKVEl">
       <property role="IQ2nx" value="8591698211919078280" />
