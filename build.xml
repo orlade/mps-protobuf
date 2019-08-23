@@ -35,7 +35,7 @@
         <name>mps-protobuf</name>
         <description>An MPS language implementation of Google's Protocol Buffers language.</description>
         <version>1.0</version>
-        <vendor url="https://piemaster.net">Oliver Lade</vendor>
+        <vendor url="https://github.com/orlade/mps-protobuf">Oliver Lade</vendor>
         <depends>jetbrains.mps.core</depends>
         <idea-version since-build="162" />
         

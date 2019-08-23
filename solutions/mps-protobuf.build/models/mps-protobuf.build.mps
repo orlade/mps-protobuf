@@ -178,7 +178,7 @@
       </node>
       <node concept="2iUeEo" id="5x$5XUsWtWl" role="2iVFfd">
         <property role="2iUeEt" value="Oliver Lade" />
-        <property role="2iUeEu" value="https://piemaster.net" />
+        <property role="2iUeEu" value="https://github.com/orlade/mps-protobuf" />
       </node>
     </node>
     <node concept="2G$12M" id="5x$5XUsWowp" role="3989C9">
