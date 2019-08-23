@@ -98,6 +98,16 @@
       <property role="TrG5h" value="repeated" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyi" id="7sVQ032NaP9" role="1TKVEl">
+      <property role="IQ2nx" value="8591698211919146313" />
+      <property role="TrG5h" value="optional" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="7sVQ032NaPm" role="1TKVEl">
+      <property role="IQ2nx" value="8591698211919146326" />
+      <property role="TrG5h" value="required" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7sVQ032MwG5">
     <property role="EcuMT" value="8591698211918973701" />

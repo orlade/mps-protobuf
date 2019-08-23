@@ -9,6 +9,7 @@
     <language id="7a3e6a3c-2d4e-4783-8e36-f0edde7b3ace" name="Protobuf">
       <concept id="8591698211918803833" name="Protobuf.structure.Field" flags="ng" index="2PZaHT">
         <property id="8591698211918953564" name="repeated" index="2PWAhs" />
+        <property id="8591698211919146326" name="required" index="2PXRlm" />
         <property id="8591698211918813901" name="type" index="2PZ4bd" />
         <property id="8591698211918809436" name="index" index="2PZ55s" />
       </concept>
@@ -33,6 +34,7 @@
         <property role="TrG5h" value="baz" />
         <property role="2PZ55s" value="1" />
         <property role="2PZ4bd" value="string" />
+        <property role="2PXRlm" value="true" />
       </node>
       <node concept="2PZaHT" id="7sVQ032MysF" role="2PZaHY">
         <property role="TrG5h" value="quxi" />
