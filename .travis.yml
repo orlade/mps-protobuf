@@ -1,0 +1,10 @@
+language: java
+jdk:
+  - oraclejdk8
+before_install: wget https://download.jetbrains.com/mps/2019.1/MPS-2019.1.5.zip
+install: unzip MPS-2019.1.5.zip
+script: ant -Dmps.home=./MPS\ 2019.1 clean assemble
+before_deploy: cd build/artifacts/mps-protobuf
+deploy:
+  provider: script
+  script: curl -i --header "Authorization: Bearer $UPLOAD_KEY" -F pluginId=12919 -F file=@mps-protobuf.zip -F channel=nightly https://plugins.jetbrains.com/plugin/uploadPlugin
