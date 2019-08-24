@@ -1,5 +1,7 @@
 # mps-protobuf
 
+[![Build Status](https://travis-ci.org/orlade/mps-protobuf.svg?branch=master)](https://travis-ci.org/orlade/mps-protobuf)
+
 An MPS language implementation of Google's Protocol Buffers language.
 
 ## Usage
