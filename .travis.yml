@@ -6,8 +6,15 @@ install: unzip MPS-2019.1.5.zip
 script: ant -Dmps_home='./MPS 2019.1' clean assemble
 before_deploy: cd build/artifacts/mps-protobuf
 deploy:
-  provider: script
-  script: 'curl -ivf --header "Authorization: Bearer $UPLOAD_KEY" -F pluginId=12919 -F file=@mps-protobuf.zip -F channel=nightly https://plugins.jetbrains.com/plugin/uploadPlugin'
-  skip_cleanup: true
-  on:
-    branch: master
+  # Upload develop to the nightly channel.
+  - provider: script
+    script: 'curl -ivf --header "Authorization: Bearer $UPLOAD_KEY" -F pluginId=12919 -F file=@mps-protobuf.zip -F channel=nightly https://plugins.jetbrains.com/plugin/uploadPlugin'
+    skip_cleanup: true
+    on:
+      branch: develop
+  # Upload master to the stable channel.
+  - provider: script
+    script: 'curl -ivf --header "Authorization: Bearer $UPLOAD_KEY" -F pluginId=12919 -F file=@mps-protobuf.zip -F channel=stable https://plugins.jetbrains.com/plugin/uploadPlugin'
+    skip_cleanup: true
+    on:
+      branch: master
