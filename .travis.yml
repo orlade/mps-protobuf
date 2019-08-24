@@ -7,4 +7,6 @@ script: ant -Dmps.home=./MPS\ 2019.1 clean assemble
 before_deploy: cd build/artifacts/mps-protobuf
 deploy:
   provider: script
-  script: curl -i --header "Authorization: Bearer $UPLOAD_KEY" -F pluginId=12919 -F file=@mps-protobuf.zip -F channel=nightly https://plugins.jetbrains.com/plugin/uploadPlugin
+  script: 'curl -i --header "Authorization: Bearer $TRAVIS_TAG" -F pluginId=12919 -F file=@mps-protobuf.zip -F channel=nightly https://plugins.jetbrains.com/plugin/uploadPlugin'
+  on:
+    branch: master
