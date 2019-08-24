@@ -7,6 +7,12 @@
   <imports />
   <registry>
     <language id="7a3e6a3c-2d4e-4783-8e36-f0edde7b3ace" name="Protobuf">
+      <concept id="8591698211918973701" name="Protobuf.structure.Enum" flags="ng" index="2PWtc5">
+        <child id="8591698211918973719" name="values" index="2PWtcn" />
+      </concept>
+      <concept id="8591698211918973710" name="Protobuf.structure.EnumValue" flags="ng" index="2PWtce">
+        <property id="8591698211918973715" name="index" index="2PWtcj" />
+      </concept>
       <concept id="8591698211918803833" name="Protobuf.structure.Field" flags="ng" index="2PZaHT">
         <property id="8591698211918953564" name="repeated" index="2PWAhs" />
         <property id="8591698211919146326" name="required" index="2PXRlm" />
@@ -16,6 +22,7 @@
       <concept id="8591698211918788480" name="Protobuf.structure.Message" flags="ng" index="2PZeY0">
         <property id="8591698211919078280" name="packageName" index="2PW7I8" />
         <child id="8591698211918973684" name="messages" index="2PWtbO" />
+        <child id="8591698211918973691" name="enums" index="2PWtbV" />
         <child id="8591698211918803838" name="fields" index="2PZaHY" />
       </concept>
     </language>
@@ -28,6 +35,20 @@
   <node concept="2PZeY0" id="7sVQ032LOxh">
     <property role="TrG5h" value="Foo" />
     <property role="2PW7I8" value="foo" />
+    <node concept="2PWtc5" id="7sVQ032QlZP" role="2PWtbV">
+      <property role="TrG5h" value="Fruit" />
+      <node concept="2PWtce" id="7sVQ032QlZT" role="2PWtcn">
+        <property role="TrG5h" value="Apple" />
+        <property role="2PWtcj" value="1" />
+      </node>
+      <node concept="2PWtce" id="7sVQ032QyU5" role="2PWtcn">
+        <property role="TrG5h" value="Banana" />
+        <property role="2PWtcj" value="2" />
+      </node>
+    </node>
+    <node concept="2PWtc5" id="7sVQ032Rv17" role="2PWtbV">
+      <property role="TrG5h" value="foo" />
+    </node>
     <node concept="2PZeY0" id="7sVQ032Mysz" role="2PWtbO">
       <property role="TrG5h" value="Baz" />
       <node concept="2PZaHT" id="7sVQ032MysB" role="2PZaHY">
