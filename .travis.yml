@@ -3,7 +3,7 @@ jdk:
   - openjdk8
 before_install: wget https://download.jetbrains.com/mps/2019.1/MPS-2019.1.5.zip
 install: unzip MPS-2019.1.5.zip
-script: ant -Dmps_home='./MPS 2019.1' clean assemble
+script: ant -Dmps_home='./MPS 2019.1' -Dproject.version=$(cat VERSION) clean assemble
 before_deploy: cd build/artifacts/mps-protobuf
 deploy:
   # Upload develop to the nightly channel.
